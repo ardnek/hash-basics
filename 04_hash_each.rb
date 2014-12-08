@@ -24,3 +24,12 @@ person = {
 #   "zip_code is 94104"
 #
 #------- your code below here ---------
+
+p person["address"].each {|x,y| puts "#{x} is #{y}"}
+
+# person["address"].each do |address, location|
+#   puts "#{address} is #{location}"
+# end
+
+# What does .each do mean?
+# each.do iterates over the hash and does x, y over and applies the script puts...

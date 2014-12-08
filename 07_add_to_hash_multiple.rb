@@ -30,7 +30,7 @@ tournaments = {
 #   Losses: ["1981"]
 #
 #------- your code below here ---------
-
+person.merge!(tournaments)
 #------- your code above here ---------
 
 puts "Wins: #{person[:tournament_wins][:wimbledon].inspect}"

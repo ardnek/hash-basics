@@ -5,10 +5,12 @@ person = {
   favorite_sport: "tennis"
 }
 
-# Print the peron's favorite foods (with `p`)
+# Print the person's favorite foods (with `p`)
 #
 # Expected result:
 #
 #   ["sushi", "hamburgers", "mexican food"]
 #
 #------- your code below here ---------
+
+p person[:favorite_foods]

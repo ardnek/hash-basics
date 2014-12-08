@@ -13,3 +13,9 @@ person = {
 #   "hamburgers"
 #
 #------- your code below here ---------
+
+p person["favorite_foods"][1]
+
+# same thing as saying this:
+# fuzzy = person["favorite_foods"]
+# p fuzzy[1]
